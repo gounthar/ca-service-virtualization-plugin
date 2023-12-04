@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>3.9</version>
+    <version>4.51</version>
     <relativePath />
   </parent>
   <groupId>io.jenkins.plugins</groupId>
@@ -13,10 +13,9 @@
   <packaging>hpi</packaging>
   <properties>
     <!-- Baseline Jenkins version you use to build the plugin. Users must have this version or newer to run. -->
-    <jenkins.version>2.73.3</jenkins.version>
+    <jenkins.version>2.346.3</jenkins.version>
     <!-- For local development purpose -->
     <codesv.version>1.3.0</codesv.version>
-    <java.level>8</java.level>
     <hpi-plugin.version>2.5</hpi-plugin.version>
     <http.version>4.5.5</http.version>
   </properties>
